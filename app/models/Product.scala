@@ -1,0 +1,1 @@
+case class Product(Id : Long, name : String, price : Double)

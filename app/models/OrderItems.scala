@@ -1,0 +1,1 @@
+case class OrderItems(Id : Long, productId : Long , quantity : Integer)

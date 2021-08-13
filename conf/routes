@@ -1,0 +1,5 @@
+GET /customers controller.CustomerController.getAll
+GET /customers/:id controller.CustomerController.getById(id : Long)
+POST /customers/add controller.CustomerController.add
+PUT /customers/update/:id controller.CustomerController.update(id: Long)
+DELETE /customer/delete/:id controller.CustomerController.delete(id :Long)
